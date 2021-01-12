@@ -1,0 +1,51 @@
+2.	Analyse des besoins
+Les besoins fonctionnels
+Après plusieurs discussions avec le responsable de la société S/N VOYAGE, on a élaboré le cahier de charges du système. Les besoins fonctionnels ont été regroupés par thèmes :
+- Gestion des packings
+En général tout produit (parcours, chambre, service et transport supplémentaire) appartient à un packing, la gestion des packs est une des fonctions nécessaires pour le bon fonctionnement du projet, du coup c’est une tâche spécialisé pour l’administrateur de l’agence qui, après au-thentification, peut gérer ces packs, en modifiant, ajoutant ou supprimer des produits.
+- Gestion des agents
+L’agent est un acteur de notre site web et l’administrateur est le seul qui possède le droit de gérer ses agents, il peut alors les ajouter les modifier ou même les supprimer.
+
+- Gestion des réservations
+C’est la principale tâche de notre projet, Elle est effectuée par un agent.
+- Gestion des clients
+On peut lister les clients de l’agence, l’administrateur a donc le droit de modifier les informa-tions du client ou même supprimer le compte du client
+- Gestion des réclamations et des messages
+Pour un bon service, le site doit offrir une bonne gestion des réclamations, l’agent ou l’administrateur reçoivent toutes les réclamations de leurs clients, ils peuvent changer l’état de la réclamation si le problème est réglé. De même, Le visiteur peut envoyer un message pour notre site web, l’agent ou l’administrateur peut le répondre à son email automatiquement du site. 
+- Gestion des blocs
+Pour but de dynamiser plus la relation entre le site et ses visiteurs, nous proposons une zone des articles gérer par les agents, et une autre des sondages pour lesquels l’administrateur se base pour créer ses voyages.
+- Gestion de newsletter
+Les visiteurs du site web ont la possibilité de s’inscrire à la newsletter, il peut désormais rece-voir dans sa boite email toutes les nouveautés de l’agence.
+
+Définition des besoins fonctionnels
+		Il s’agit des fonctionnalités du système. Ce sont les besoins spécifiant un comporte-ment d’entrée/sortie du système.  
+Le système doit permettre aux gérants de la société S/N VOYAGE:
+•	De s'identifier ;
+•	D'ajouter des voyages ;
+•	De consulter un voyage ;
+•	De supprimer un voyage ;
+•	De modifier un voyage ;
+•	De vérifier la disponibilité des voitures ;
+•	D'ajouter des membres ;
+•	De consulter un membre ;
+•	De supprimer un membre ;
+•	De modifier un membre ;
+•	D'ajouter des réservations ;
+•	De consulter des réservations ;
+•	De supprimer des réservations ;
+•	De modifier des réservations ;
+•	Définir la durée des voyages ;
+•	Définir le max de voyages à réserver ;
+•	De Consulter les nouveautés.
+
+Aux membres :
+- D'effectuer une recherche selon un critère défini ;
+- De réserver un voyage
+
+3.	Définition des besoins non fonctionnels
+	Il s'agit des besoins qui caractérisent le système. Ce sont des besoins en matière de per-formance, de type de matériel ou le type de conception. Ces besoins peuvent concerner les contraintes d'implémentation (langage de programmation, type SGBD, de système d'Exploita-tion...)
+	Dans le cadre de ce travail, l'application devra être extensible, c'est-à-dire qu'il pourra y avoir une possibilité d'ajouter ou de modifier de nouvelles fonctionnalités.
+L'application devra être capable de :
+	Tourner en réseau ;
+	Etre compatible avec n'importe quel système d'exploitation.
+	Il faudra aussi noter que l'application devra être hautement sécurisée car les informa-tions ne devront pas être accessibles à tout le monde.
