@@ -1,0 +1,40 @@
+II.	CONCEPTION
+	Dans cette partie nous effectuerons une description logique de la façon dont le système va fonctionner. Elle consiste à façonner le système et lui donner une forme et une architecture. Elle constitue une entrée majeure pour les deux dernières à savoir : l’implémentation et le test.
+Les Acteurs :
+Visiteur : Toute personne accède au site peut :
+• Contacter
+• Recherche des offres
+• Consultation des produits disponibles Packs/Vols/Hôtels
+• Inscription à la newsletter
+Client : Une personne ayant effectué au moins une réservation chez l’agence peut :
+• Réclamation
+• Demande de Modification/Annulation de la réservation
+• Affichage
+- Consulter sa réservation
+Agent : Une personne travaille à l’agence ayant un compte crée par l’administrateur. L’agent peut effectuer les deux opérations suivantes :
+• Réservation
+- Saisir les informations du client (Création d’un compte)
+- Choisir un pack
+- Acheter une place des vols disponible/Réserver Une ou plusieurs chambre /Acheter une place des transports supplémentaires /
+Acheter des services supplémentaires (Tout dépend du pack choisis)
+- Confirmation et impression des factures.
+• Affichage
+- Lister clients
+- Lister des réservations
+- Lister des messages
+o Envoie des réponses
+Administrateur : En plus des rôles des agents, l’administrateur de l’agence peut réaliser les opérations suivantes :
+• Configuration
+- Ajout/Modification/suppression d’un employé
+- Suppression des clients
+• Affichage
+- Listage des employés
+- Listage des clients
+- Listage des emails des newsletters
+• Gestion
+- Ajout/Modification/suppression des packs
+- Ajout/Modification/suppression des chambres
+- Ajout/Modification/suppression des vols
+- Ajout/Modification/suppression des services
+- Ajout/Modification/suppression des transports
+Le client, l’agent et même l’administrateur sont obligés de s’authentifier avant d’effectuer leurs rôles.
