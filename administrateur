@@ -1,0 +1,33 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr"> 
+	<head> 
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+		<title>ADMINISTRATEUR</title> 
+		
+		<link rel="stylesheet" href="style/css1.css" />
+          		
+        <script language='javascript' src="../js/script.js"></script>	
+		
+	</head> 
+	<body> 
+		<div id="master">
+			
+			<br>
+			<br>
+			<div id="contenu">	 
+	 <marquee> Connectez-vous ou créer un compte</marquee>
+	<section id="hh"><br>
+		<input class="user" type="text" placeholder="Nom D'utilisateur" title="veuillez entrer votre identifiant"> <br>
+		<input type="password" class="pswd"  placeholder="Mot de Passe" tilte="Votre Mot De Passe"><br>
+		<button type="submit" title="valider">Connexion</button>
+		<button type="reset" title="valider">Annuler</button><br><br> 
+		<a href="recuperer.html" title="Recuperer le mot de passe">
+			<font size="5pt" COLOR="blue">Mot de passe oublie?</a> </font><a href="formul.html" title="Creer Un Nouveau Compte"><font size="5pt" COLOR="grey">Créer un compte</font></a> </section>
+	<center><img src="istockphoto-675209882-612x612.jpg" height="240px"></center>
+	
+			</div>
+			<div id="pied">
+					<center><i>MAROUA.</i> Copyright(c)2021. agence de voyage </center>
+			</div>
+		</div> 
+	</body> 
+</html>
